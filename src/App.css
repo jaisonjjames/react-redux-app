@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+
+/* Custom style */
+
+.ant-layout-header{
+  background: #fff;
+  height: 88px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-layout-header .anticon-shopping-cart{
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-layout-footer{
+  background: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.products .ant-card-cover {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.products .product .ant-card-cover > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+  margin: auto;
+}
+
+.products .product .ant-card{
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+
+.products .product .ant-card .ant-card-body{
+  border-top: 1px solid #f0f0f0;
+}
+
+.products .product .ant-card .ant-card-meta-description .category{
+  float: left;
+  text-transform: capitalize;
+}
+
+.products .product .ant-card .ant-card-meta-description .ant-tag{
+  float: right;
+  font-weight: bold;
 }
